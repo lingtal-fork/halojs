@@ -1049,7 +1049,7 @@ module.exports = {
 	    		callback: function(msg){
 	    			if(msg=="HaloJS"){
 	    				//跳转到内网
-	    				location.href=location.protocol+"//"+"mtd.jd.com"+location.pathname+location.search+location.hash;
+	    				location.href=location.protocol+"//"+"mtd.jd.com/halojs"+location.pathname+location.search+location.hash;
 	    			}
 	    		}
 	    	}
